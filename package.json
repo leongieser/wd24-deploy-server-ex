@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "description": "> Deployment\r\n> - What are environment variables?\r\n> - Node: examining process.env\r\n> - Node: loading .env files with `node --env-file=.env main.js`",
     "type": "module",
-    "main": "example.js",
+    "main": "server.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "example": "node --env-file=.env example.js",
