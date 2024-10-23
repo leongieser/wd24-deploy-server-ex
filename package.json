@@ -1,0 +1,25 @@
+{
+    "name": "07-deployment",
+    "version": "1.0.0",
+    "description": "> Deployment\r\n> - What are environment variables?\r\n> - Node: examining process.env\r\n> - Node: loading .env files with `node --env-file=.env main.js`",
+    "type": "module",
+    "main": "example.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "example": "node --env-file=.env example.js",
+        "dev": "nodemon server.js",
+        "start": "node server.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "dotenv": "^16.4.5",
+        "express": "^4.21.1",
+        "morgan": "^1.10.0"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.7"
+    }
+}
